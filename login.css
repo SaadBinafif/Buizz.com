@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #222021;
+    --secondary-color: #066cfa;
+    --bg-color: #a8a8a8e9;
+    --text-color: #555;
+    --black-color: #000;
+    --white-color: #fff;
+    --primary-font: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    background: #e7e7e7;
+}
+
+.custom-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.217);
+    width: 100%;
+    max-width: 470px;
+    padding: 40px;
+}
+
+.center-screen {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.img-fluid {
+    height: 60px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--secondary-color);
+}
+
+.nav-link {
+    padding: 0.6rem 5rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.input-group-text {
+    background: none;
+}
+
+.input-group{
+    margin-top: 8px;
+}
+
+.form-control{
+    padding: 12px 10px;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 5px;
+    color: var(--white-color);
+    background: var(--secondary-color);
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+}
+
+.btn:hover {
+    background: #0453c2;
+    color: var(--white-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:focus, .btn:active {
+    outline: none;
+    box-shadow: none;
+}
+
+#resendOtpBtn {
+    background: none;
+    color: var(--primary-color);
+    border: 1px solid #066cfa ;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+#resendOtpBtn:hover {
+    background: #066cfa;
+    border: 1px solid #066cfa ;
+    transition: all 0.3s ease;
+    color: #fff;
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+a:hover {
+    color: #0453c2;
+}
+
+.tab-content .form-control {
+    outline: none;
+    box-shadow: none;
+}
+.alert-message {
+    color: red;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+

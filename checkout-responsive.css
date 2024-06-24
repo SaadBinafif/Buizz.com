@@ -1,0 +1,199 @@
+/* General Styles for smaller devices */
+@media (max-width: 767px) {
+    .container {
+        padding: 15px;
+    }
+
+    .logo {
+        max-width: 150px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    .form-label, .form-control {
+        font-size: 14px;
+    }
+
+    .axil-order-summery {
+        padding: 20px;
+    }
+
+    .summery-table-wrap {
+        padding: 20px;
+    }
+
+    .axil-order-summery .title {
+        font-size: 18px;
+    }
+
+    .axil-order-summery .summery-table th, .axil-order-summery .summery-table td {
+        font-size: 14px;
+    }
+
+    .axil-order-summery .summery-table .order-total td {
+        font-size: 16px;
+    }
+
+    .order-payment-method .single-payment p {
+        font-size: 14px;
+    }
+
+    .input-group {
+        font-size: 14px;
+    }
+
+    .checkout-btn {
+        padding: 10px 20px;
+    }
+}
+
+/* Fixing the issue for screens less than 467px */
+@media (max-width: 467px) {
+    .axil-order-summery {
+        padding: 10px;
+    }
+
+    .summery-table-wrap {
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    .summery-table {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .summery-table th, .summery-table td {
+        font-size: 12px;
+        padding: 8px 5px;
+        word-wrap: break-word;
+    }
+
+    .summery-table .order-total td {
+        font-size: 14px;
+    }
+
+    .order-payment-method .single-payment {
+        padding-bottom: 10px;
+    }
+
+    .order-payment-method .single-payment .input-group {
+        font-size: 12px;
+    }
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .logo {
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    .form-label, .form-control {
+        font-size: 16px;
+    }
+
+    .axil-order-summery {
+        padding: 30px;
+    }
+
+    .summery-table-wrap {
+        padding: 25px;
+    }
+
+    .axil-order-summery .title {
+        font-size: 20px;
+    }
+
+    .axil-order-summery .summery-table th, .axil-order-summery .summery-table td {
+        font-size: 16px;
+    }
+
+    .axil-order-summery .summery-table .order-total td {
+        font-size: 18px;
+    }
+
+    .order-payment-method .single-payment p {
+        font-size: 16px;
+    }
+
+    .input-group {
+        font-size: 16px;
+    }
+
+    .checkout-btn {
+        padding: 14px 28px;
+    }
+}
+
+/* Styles for small laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .logo {
+        max-width: 230px;
+    }
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    h4 {
+        font-size: 1.9rem;
+    }
+
+    .form-label, .form-control {
+        font-size: 18px;
+    }
+
+    .axil-order-summery {
+        padding: 35px;
+    }
+
+    .summery-table-wrap {
+        padding: 30px;
+    }
+
+    .axil-order-summery .title {
+        font-size: 22px;
+    }
+
+    .axil-order-summery .summery-table th, .axil-order-summery .summery-table td {
+        font-size: 18px;
+    }
+
+    .axil-order-summery .summery-table .order-total td {
+        font-size: 20px;
+    }
+
+    .order-payment-method .single-payment p {
+        font-size: 18px;
+    }
+
+    .input-group {
+        font-size: 18px;
+    }
+
+    .checkout-btn {
+        padding: 15px 30px;
+    }
+}

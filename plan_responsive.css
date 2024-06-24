@@ -1,0 +1,109 @@
+
+@media (max-width: 767px) {
+    #plan .container .row .col-6 h2{
+        font-size: 20px;
+    }
+    #plan .container .row .col-6 h5{
+        font-size: 13px;
+    }
+    #plan .container .row .col-2 h2 {
+        font-size: 14px !important; 
+        font-weight: 700;
+    }
+    #plan .container .row .col-2 h5 {
+        font-size: 10px;
+    }
+    #plan .container .row .col-2 .off {
+        font-size: 10px;
+    }
+    #plan .container .col-2.row1.text-center .txt{
+        margin: 0;
+        font-size: 12px;
+    }
+    #plan .container .row .row1{
+        font-size: 22px;
+    }
+    #plan .container .row .row1 .rupee{
+        font-size: 18px;
+    }
+    #plan .container .row .row1 .day{
+        font-size: 12px;
+    }
+    #plan .container .row .col-6 h2 {
+        margin: 0 0 13px;
+    }
+    #plan .container .table .row h4{
+        font-size: 14px;
+    }
+    #plan .container .table .row h4{
+        width: 90%;
+    }
+    #plan .container .table .row .col-6 img {
+        width: 30px;
+        height: 30px;
+        margin: 0;
+    }
+    #plan .container .table .row h3 {
+        font-size: 15px;
+    }
+    #plan .container .table .row h6 {
+        font-size: 12px;
+    }
+    #plan .container .table .row .col-2 i {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px){
+    #plan .container .row .col-6 h2{
+        font-size: 15px;
+    }
+    #plan .container .row .col-6 h5{
+        font-size: 10px;
+    }
+    #plan .container .row .col-2 h2 {
+        font-size: 10px !important; 
+        font-weight: 700;
+    }
+    #plan .container .row .row1 {
+        font-size: 16px;
+    }
+    #plan .container .row .row1 .rupee {
+        font-size: 14px;
+    }
+    #plan .container .row .row1 .day {
+        font-size: 10px;
+    }
+    #plan .container .col-2.row1.text-center .txt {
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    
+    #plan .container .table .row .col-6 img {
+        width: 25px;
+        height: 25px;
+        margin-left: 18px;
+    }
+    #plan .container .table .row h4 {
+        width: 90%;
+    }
+    #plan .container .table .row h4 {
+        font-size: 10px;
+        margin-top: 7px;
+        padding: 0;
+        padding-left: 24px;
+    }
+    #plan .container .table .row {
+    padding: 0;
+    }
+    #plan .container .table .row h3 {
+        font-size: 12px;
+    }
+    #plan .container .table .row h6 {
+        font-size: 10px;
+        padding: 0;
+    }
+    #plan .container .table .row .col-2 i {
+        font-size: 14px;
+    }
+}

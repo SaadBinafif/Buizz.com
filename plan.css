@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #222021;
+  --secondary-color: #066cfa;
+  --bg-color: #a8a8a8e9;
+  --text-color: #555;
+  --black-color: #000;
+  --white-color: #fff;
+  --primary-font: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+#plan .container .row .col-6 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 0 80px;
+}
+
+#plan .container .row .col-6 h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#plan .container .row .col-2 {
+  border-left: 1px solid rgb(185, 185, 185);
+}
+
+#plan .container .row .col-2 h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#plan .container .row .col-2 h5 {
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+#plan .container .row .row1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#plan .container .row .std {
+  color: #15a677;
+}
+
+#plan .container .row .pre {
+  color: #e52b8d;
+}
+
+#plan .container .row .pro {
+  color: #4e49e9;
+}
+
+#plan .container .row .grow {
+  color: #049fd8;
+}
+
+#plan .container .col-2.row1.text-center .txt {
+  margin-bottom: 13px;
+}
+
+#plan .container .row .col-2 .off {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+#plan .container .row .row1 .rupee {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+#plan .container .row .row1 .day {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+#plan .container .table .row .col-6 .row {
+  border: none;
+}
+
+#plan .container .table .row .col-6 {
+  padding: 5px 0px;
+}
+
+#plan .container .table .row .col-2 {
+  padding: 5px 0px;
+}
+
+#plan .container .table .row .col-2 i {
+  font-size: 20px;
+  color: #4ac851;
+}
+
+#plan .container .table .row {
+  border-top: 0.5px solid rgb(235, 235, 235);
+}
+
+#plan .container .table .row h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#plan .container .table .row h4 {
+  font-size: 18px;
+  padding-left: 15px;
+  margin: 0;
+  font-weight: 600;
+  width: 80%;
+}
+
+#plan .container .table .row h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#plan .container .table .row .col-6 img {
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
